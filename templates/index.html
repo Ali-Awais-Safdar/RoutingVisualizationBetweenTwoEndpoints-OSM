@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Find Optimal Route</h1>
+    <form action="/find_route" method="POST">
+        <label for="start">Starting Address:</label>
+        <input type="text" id="start" name="start" required>
+        <br><br>
+        <label for="end">Destination Address:</label>
+        <input type="text" id="end" name="end" required>
+        <br><br>
+        <button type="submit">Find Route</button>
+    </form>
+</body>
+</html>
