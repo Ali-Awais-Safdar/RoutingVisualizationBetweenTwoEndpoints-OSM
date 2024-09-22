@@ -45,7 +45,7 @@ This project is a Flask web application that utilizes OpenStreetMap (OSM) data t
 - **app.py**: This file provides the user interface for entering both starting and ending addresses. The determined optimized route is displayed on an interactive map using Folium.
 
 ## Output Example
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Ali-Awais-Safdar/RoutingVisualizationBetweenTwoEndpoints-OSM/blob/master/output.png)
 
 ## Acknowledgments
 - **OpenStreetMap** for providing the map data
